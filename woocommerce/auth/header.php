@@ -31,4 +31,3 @@ if (! defined( 'ABSPATH' )) {
 </head>
 <body class="wc-auth wp-core-ui">
 	<div class="wc-auth-content">
-<!-- it works 👍👍👍 -->
