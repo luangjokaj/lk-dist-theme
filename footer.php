@@ -43,6 +43,9 @@
 		<em><?php bloginfo('name'); ?></em> - &copy; <?php echo date('Y');?></p>
 		<?php echo lk_theme_output_socials(); ?>
 	</p>
+	<div class="riangle">
+		<a href="https://www.riangle.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/riangle.svg" alt="Riangle"></a>
+	</div>
 
 </footer>
 <?php wp_footer(); ?>

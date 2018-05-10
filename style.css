@@ -6144,3 +6144,28 @@ footer ul li a img {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
+
+footer .riangle {
+  text-align: center;
+}
+
+footer .riangle a {
+  display: inline-block;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+footer .riangle a img {
+  display: inline-block;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+footer .riangle a:hover img {
+  -webkit-transform: perspective(400px) rotateY(180deg) scale(1);
+          transform: perspective(400px) rotateY(180deg) scale(1);
+}
